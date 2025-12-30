@@ -9,7 +9,7 @@ Not hosted yet. Run locally using the steps below.
 
 # Features
 
-- Displays Top 25 players** by PPR fantasy points** for the current NFL week**
+- Displays Top 25 players** by PPR fantasy points for the current NFL week
 - Automatically detects the current season / season type / week using Sleeper’s state/nfl endpoint
 - Shows player data (name, team, position) by joining stats with the Sleeper player directory
 - Simple server-rendered UI using Jinja templates
