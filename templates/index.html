@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+    <thead>
+        <tr>
+            <th>Player Name</th>
+            <th>Team</th>
+            <th>Position</th>
+            <th>Fantasy Points (PPR)</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for player in players %}
+        <tr>
+            <td>{{ player.name }}</td>
+            <td>{{ player.team }}</td>
+            <td>{{ player.position }}</td>
+            <td>{{ player.points }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
